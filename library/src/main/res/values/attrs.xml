@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LinearColorPickerView">
+        <attr name="selectedColor">
+            <enum name="black" value="0" />
+            <enum name="red" value="6" />
+            <enum name="green" value="4" />
+            <enum name="blue" value="2" />
+            <enum name="white" value="7" />
+        </attr>
+        <attr name="showCursor" format="boolean" />
+        <attr name="cursorColor" format="color" />
+        <attr name="showBorder" format="boolean" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="isVertical" format="boolean" />
+    </declare-styleable>
+
+</resources>
